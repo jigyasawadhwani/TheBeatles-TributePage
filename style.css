@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+body{
+    width: 80%;
+    background-color: #C1CFC0;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+li p{
+    text-align: justify;
+}
+
+#title{
+    font-size: 55px;
+    margin: 30px 0 30px 0;
+    font-family: 'Patua One', cursive;
+}
+#subTitle{
+    font-size: 20px;
+    margin: 30px 0;
+}
+#img-div{
+    background-color: #E7E0C9;
+    padding: 30px;
+    border: 0;
+    border-radius: 10px;
+}
+#img-caption{
+    font-size: 13px;
+    margin: 0;
+    margin-top: 5px;
+    color: rgb(78, 78, 78);
+}
+#image{
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+#tribute-info{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px ;
+}
+#tribute-info .info{
+    margin: 50px 0;
+    font-weight: bold;
+}
+#tribute-info h2{
+    margin: 40px 0 20px 0;
+}
+#quote{
+    width: 50%;
+    margin: auto;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 100;
+}
+
+#album img{
+    border:0;
+    border-radius:10px; 
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 220px;
+    height: 220px;
+    max-width: 100%;
+}
+#album{
+    background: #E7E0C9;
+    border:0;
+    border-radius: 10px;
+    margin: 10px;
+}
+#albums{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span{
+    font-size: 12px;
+    color: rgb(59, 59, 59);
+}
+#wikilink{
+    font-weight: bold;
+    font-size: 20px;
+}
+footer{
+    margin: auto;
+    padding: 30px 0;
+    color: rgb(78, 78, 78);
+}
+hr{
+    margin: auto;
+    width: 20%;
+    border: 0;
+    border-top: black solid 2px;
+    margin-bottom: 30px;
+}
