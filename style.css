@@ -46,6 +46,11 @@ li p{
     margin: auto;
     margin-bottom: 30px ;
 }
+@media(max-width:600px){
+    #tribute-info{
+        width: 95%;
+    }
+}
 #tribute-info .info{
     margin: 50px 0;
     font-weight: bold;
